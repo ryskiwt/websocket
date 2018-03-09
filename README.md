@@ -1,8 +1,11 @@
-# websocket
+# WebSocket
 
-A thin wrapper of websocket/gorilla implementing net.Conn
+A thin wrapper of [gorilla/websocket](https://github.com/gorilla/websocket). This library just adds net.Conn interface to gorilla/websocket.Conn.
 
-# Usage
+[![GoDoc](https://godoc.org/github.com/ryskiwt/websocket?status.svg)](https://godoc.org/github.com/ryskiwt/websocket)
+[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://github.com/ryskiwt/websocket/blob/master/LICENSE)
+
+### Usage
 
 ```go
 package main
